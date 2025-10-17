@@ -1,0 +1,24 @@
+Package: circadian
+Type: Package
+Title: Circadian Rhythm Analysis and Spectrum Inference Toolkit
+Version: 0.1.0
+Authors@R: 
+    person("Zihan", "Zhu", 
+           email = "zxz1586@case.edu", 
+           role = c("aut", "cre"))
+Description: Provides functions for circadian estimation, spectrum analysis,
+    and mixed-frequency simulation. Includes phase inference, contrast tests,
+    and spectrum correction routines suitable for circadian gene expression data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1)
+Imports:
+    ggplot2,
+    lomb,
+    Matrix,
+    stats,
+    utils
+Suggests:
+    testthat
